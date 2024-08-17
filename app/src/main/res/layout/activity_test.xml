@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0D9C8"
+    tools:context=".TestActivity">
+
+    <ImageView
+        android:id="@+id/manWithPhoneImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/man_with_phone" />
+
+    <TextView
+        android:id="@+id/startTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выпрямите руку с телефоном и нажмите Начать"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:backgroundTint="#B2937D"
+        android:textSize="22sp"
+        android:text="Начать" />
+</LinearLayout>
